@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Day 1 - LISTS </title>
+  </head>
+  <body>
+    <h1 align = center> DAY 1 OF HTML</h1>
+
+    <p>Hello this is my first webpage</p>
+
+    <p>Here I'll show you the use of lists: </p>
+    <ol>
+      <li>Fruits</li>
+      <li>Veggies</li>
+    </ol>
+
+    <p>Now let us see unordered lists: </p>
+    <ul>
+      <li>fruits</li>
+      <li>veggies</li>
+    </ul>
+
+    <p>and now description lists: </p>
+    <dl class="Fruits">
+      <dt>Mango: </dt><dd>Yellow fruits</dd>
+      <dt>Apple: </dt><dd>Red fruits</dd>
+    </dl>
+    <p>Lets try nested lists now: :P </p>
+    <dl class="Eatables">
+      <dt>Fruits: </dt>
+      <dd>
+        <ol>
+          <li>Mango</li>
+          <li>Apple</li>
+          <li>Banana</li>
+        </ol>
+      </dd>
+      <dt>Veggies: </dt>
+      <dd>
+        <ol>
+          <li>Potato</li>
+          <li>tomato</li>
+        </ol>
+      </dd>
+    </dl>
+
+
+    <p>This is sufficient for the day, I guess </p>
+  </body>
+</html>
